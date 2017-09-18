@@ -20,9 +20,9 @@ end
 
 def printer(name)
   name.each do |z|
-    badges << "Hello, my name is #{z}."
+    "Hello, my name is #{z}."
   end
   name.each_with_index do |x, y|
-    rooms << "Hello, #{x}! You'll be assigned to room #{y + 1}!"
+    "Hello, #{x}! You'll be assigned to room #{y + 1}!"
   end
 end

@@ -27,6 +27,5 @@ def printer(name)
   name.each_with_index do |x, y|
     rooms << "Hello, #{x}! You'll be assigned to room #{y + 1}!"
   end
-  puts badges
   puts rooms
 end

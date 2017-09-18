@@ -20,7 +20,7 @@ end
 
 def printer(name)
   name.each do |z|
-    "Hello, my name is #{z}."
+    puts "Hello, my name is #{z}."
   end
   name.each_with_index do |x, y|
     "Hello, #{x}! You'll be assigned to room #{y + 1}!"

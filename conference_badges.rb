@@ -23,10 +23,10 @@ def printer(name)
   name.each do |z|
     badges << "Hello, my name is #{z}."
   end
-  # rooms = []
-  # name.each_with_index do |x, y|
-  #   rooms << "Hello, #{x}! You'll be assigned to room #{y + 1}!"
-  # end
+  rooms = []
+  name.each_with_index do |x, y|
+    rooms << "Hello, #{x}! You'll be assigned to room #{y + 1}!"
+  end
   puts badges
-  # puts rooms
+  puts rooms
 end
